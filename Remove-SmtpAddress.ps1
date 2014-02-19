@@ -1,4 +1,6 @@
-﻿function Remove-SmtpAddress{
+﻿#http://www.mikepfeiffer.net/2012/02/how-to-remove-e-mail-addresses-for-a-specific-domain-from-exchange/
+
+function Remove-SmtpAddress{
     param(
         $Domain
     )
